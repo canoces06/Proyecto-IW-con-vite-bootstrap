@@ -14,19 +14,39 @@ const home = () => {
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-            
-        </div>
-        <div class="carousel-item">
-            
-        </div>
-        <div class="carousel-item">
-          <img src="https://cdn.pixabay.com/photo/2014/04/22/02/55/pasta-329521_960_720.jpg" class="d-flex w-100" alt="..." />
+          <img src="https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_960_720.jpg" class="d-block w-100  rounded-4" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>Pizza pixie</h5>
+            <p>Restaurante delicioso de pizzas napolitanas.</p>
+            <p><strong>Dirección: </strong>Calle siempre alegre #34-89</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.pixabay.com/photo/2014/04/22/02/55/pasta-329521_960_720.jpg" class="d-block w-100  rounded-4" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>PastAldente</h5>
+            <p>Una de las mejores comidas italianas de la ciudad. Ven y visítanos.</p>
+            <p><strong>Dirección: </strong>Cr 85#34-89</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.pixabay.com/photo/2023/09/23/15/56/ai-generated-8271284_960_720.jpg" class="d-block w-100  rounded-4" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Amborger</h5>
+            <p>Encuentra las mejores hamburguesas artesanales en Amborger. Y lo mejor, a precios justos.</p>
+            <p><strong>Dirección: </strong>Calle 85#34-89sur</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.pixabay.com/photo/2021/01/01/15/32/sushi-balls-5878894_1280.jpg" class="d-block w-100 rounded-4" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sushi Raw</h5>
+            <p>Vive una nueva experiencia probando nuestros mejores sushis.</p>
+            <p ><strong>Dirección: </strong>Cr 67#4-49</p>
           </div>
         </div>
       </div>

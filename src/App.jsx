@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from './IU/navBar'
 import Home from './pages/home'
 import Search from './pages/search'
+import './scripts'
 import NewRestaurants from './pages/newRestaurants'
 
 

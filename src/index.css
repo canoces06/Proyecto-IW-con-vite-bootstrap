@@ -5,25 +5,35 @@
   margin-left: -19em!important;
 }
 
-
-#searchInput .form-control{
-  width: 30%!important;
-  border-radius: 2%!important;
-}
+/*primero agarramos el selector para controlar el comportamiento de las flechas para pasar hacia adelante o hacia atrás 
+en este caso lo que quería era ponerle una especie de degradado cuando paso el clic encima (hover over)*/
 
 .carousel-control-prev {
+  
+  transition: opacity 0.5s ease; 
   background-color: #7e7e7e;
   opacity: 0.2;
   
 }
 
+
 .carousel-control-next {
+  transition: opacity 0.5s ease; 
   background-color: #7e7e7e;
   opacity: 0.2;
+} 
+
+.carousel-control-prev:hover{
+  opacity: 0.7;
+}
+
+.carousel-control-next:hover{
+  opacity: 0.7;
 }
 
 .carousel-control-prev-icon{
   background-color: black;
+  
 }
 
 .carousel-control-next-icon{
@@ -36,6 +46,10 @@
   opacity: 0.7;
   
 }
+.form-control #searchInput{
+  width: 50%;
+}
+
 
 
 
