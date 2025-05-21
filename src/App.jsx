@@ -4,7 +4,11 @@ import NavBar from './IU/navBar'
 import Home from './pages/home'
 import Search from './pages/search'
 import NewRestaurants from './pages/newRestaurants'
+import { useEffect } from 'react'
 
+
+// import addRestaurants from './JS/addRestaurants'
+// import searchRestaurants from './JS/searchRestaurants'
 
 
 
@@ -27,7 +31,13 @@ return(
   </Router>
   
 )
+
 }
+
+
+
+
+
 
 
 export default App
