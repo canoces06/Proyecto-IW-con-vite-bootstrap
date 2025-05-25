@@ -2,6 +2,8 @@ import React from 'react'
 import { restaurants } from '../data'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
+import bootstrapBundleMin from 'bootstrap/dist/js/bootstrap.bundle.min'
+
 
 
 
@@ -9,7 +11,9 @@ import Card from 'react-bootstrap/Card'
 const home = () => {
   return (
 
-    <div id="carouselExampleCaptions" class="carousel slide m-5 " data-bs-ride="false">
+    <>
+    <div id="carouselExampleCaptions" class="carousel slide m-5 mx-auto" data-bs-ride="carousel" data-bs-interval="3000"> {/* con la propiedad data-bs-ride puedo hacer que los sliders pasen automáticamente
+    así que cambio el estado a 'carousel' y le pongo un intervalo con la propiedad contigua */}
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -59,6 +63,12 @@ const home = () => {
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    
+
+    <footer class="position-absolute bottom-5 start-5">© Copyright 2025</footer>
+    
+   </>
+
 
   )
 }
@@ -66,7 +76,8 @@ export default home
 
 
 // también lo intenté con algunas cards pero me gustó más como se ve con el carousel (y también mezclé cards con el carousel pero me muestra es de a un card por slider y no se ve bien, tendría 
-//que cambiar la estructura del código y darle estilo con CSS) aquí un ejemplo de una card dentro del carousel
+//que cambiar la estructura del código y darle estilo con CSS); aquí un ejemplo de una card dentro del carousel
+
 {/* <div id="carouselExampleCaptions" class="carousel slide m-5 " data-bs-ride="false">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

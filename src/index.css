@@ -1,42 +1,51 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-#dir{
-  
-  margin-left: -19em!important;
+#dir {
+
+  margin-left: -19em !important;
 }
 
 /*primero agarramos el selector para controlar el comportamiento de las flechas para pasar hacia adelante o hacia atrás 
 en este caso lo que quería era ponerle una especie de degradado cuando paso el clic encima (hover over)*/
 
+#carouselExampleCaptions {
+  width: 60%;
+  position: relative;
+
+}
+
+
 .carousel-control-prev {
-  
-  transition: opacity 0.5s ease; 
+
+  transition: opacity 0.5s ease;
   background-color: #7e7e7e;
   opacity: 0.2;
-  
+  width: 7%;
+
 }
 
 
 .carousel-control-next {
-  transition: opacity 0.5s ease; 
+  transition: opacity 0.5s ease;
   background-color: #7e7e7e;
   opacity: 0.2;
-} 
+  width: 7%;
+}
 
-.carousel-control-prev:hover{
+.carousel-control-prev:hover {
   opacity: 0.7;
 }
 
-.carousel-control-next:hover{
+.carousel-control-next:hover {
   opacity: 0.7;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
   background-color: black;
-  
+
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
   background-color: black;
 }
 
@@ -44,12 +53,44 @@ en este caso lo que quería era ponerle una especie de degradado cuando paso el 
 .carousel-caption {
   background-color: #7e7e7e;
   opacity: 0.7;
-  
+
 }
-.form-control #searchInput{
+
+.form-control #searchInput {
   width: 50%;
 }
 
+.input-group {
+  width: 55%;
+}
+
+#searchContainer {
+
+  background-color: rgba(133, 151, 145, 0.753);
+  width: 40%;
+  height: 180px;
+  opacity: 0.8;
+  size: 50%;
+
+}
+
+/* 
+Aquí cambié de recurso y lo hice con estilos en línea (inline styles) de React/JSX, que funcionan con la estructura "style = {{propiedades:'valores'}}
+#inputContainer #btnBuscar{
+  width: 80%!important;
+} */
+
+#AgregarContainer {
+  background-color: rgba(133, 151, 145, 0.753);
+  width: 40%;
+  height: 550px;
+  opacity: 0.8;
+  size: 50%;
+}
+
+#resultsContainer {
+  width: 40%;
+}
 
 
 
