@@ -69,7 +69,7 @@ en este caso lo que quería era ponerle una especie de degradado cuando paso el 
   background-color: rgba(133, 151, 145, 0.753);
   width: 40%;
   height: 180px;
-  opacity: 1;
+  opacity: 0.8;
   size: 50%;
 
 }
@@ -84,7 +84,7 @@ Aquí cambié de recurso y lo hice con estilos en línea (inline styles) de Reac
   background-color: rgba(133, 151, 145, 0.753);
   width: 40%;
   height: 550px;
-  opacity: 1;
+  opacity: 0.8;
   size: 50%;
 }
 

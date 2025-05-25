@@ -46,7 +46,7 @@ const newRestaurants = () => {
         }
 
 
-        // 4. Limpiamos el formulario
+        // Limpiamos el formulario
         restaurantForm.reset();
       };
 

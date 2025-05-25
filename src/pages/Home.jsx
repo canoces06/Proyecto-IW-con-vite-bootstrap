@@ -76,7 +76,8 @@ export default home
 
 
 // también lo intenté con algunas cards pero me gustó más como se ve con el carousel (y también mezclé cards con el carousel pero me muestra es de a un card por slider y no se ve bien, tendría 
-//que cambiar la estructura del código y darle estilo con CSS) aquí un ejemplo de una card dentro del carousel
+//que cambiar la estructura del código y darle estilo con CSS); aquí un ejemplo de una card dentro del carousel
+
 {/* <div id="carouselExampleCaptions" class="carousel slide m-5 " data-bs-ride="false">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
